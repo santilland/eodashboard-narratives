@@ -1,3 +1,11 @@
+---
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/el_nino_SST/cover-ai-1.png
+date: 2025-01-01
+theme: extreme-events
+tags: sea-surface-temperature
+official: true
+---
+
 # El Niño 2023-2024 (Part 1): Record-breaking temperatures <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/el_nino_land_temperatures/hawkins-stripes.png" }-->
 ### Read more about observing land surface temperature from space <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 

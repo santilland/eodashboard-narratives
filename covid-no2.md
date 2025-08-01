@@ -1,3 +1,11 @@
+---
+cover-image: "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-no2/hero.jpg"
+date: 2025-01-01
+theme: covid-19
+tags: no2
+official: true
+---
+
 # Covid-19 Impacts on Air Quality <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-no2/hero.jpg" }-->
 ### Effect of lockdown on Nitrogen Dioxide <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 

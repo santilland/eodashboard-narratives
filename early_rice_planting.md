@@ -1,7 +1,15 @@
+---
+cover-image: "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/Earth Observing Dashboard-Agriculture-Rice/hero.jpg"
+date: 2025-01-01
+theme: covid-19
+tags: agriculture
+official: true
+---
+
 # Covid-19 Impacts on Rice Planting <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/Earth Observing Dashboard-Agriculture-Rice/hero.jpg" }-->
 ### Early Rice Planting in Sacramento (California) <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
-## Covid-19 Impacts on Rice Planting
+##
 
 Satellite imagery observed by ALOS-2 PALSAR-2 and GCOM-C operated by JAXA, Sentinel-2 by ESA, and Landsat-8 by NASA/USGS were used to assess the state of rice cultivation near Sacramento, California, USA.
 
@@ -9,14 +17,11 @@ Satellite imagery observed by ALOS-2 PALSAR-2 and GCOM-C operated by JAXA, Senti
 
 As for the timing of planting, effect of weather conditions is one reason. In addition, there is a possibility that high rice price caused by the COVID-19 related concerns over global rice supply through potential increases in demand, threats of export restrictions, and shortage of labor.
 
-The map below shows observations from GCOM-C SGLI on 24 May 2020 ([to browse more dates, open indicator in EO Dashboard](https://www.eodashboard.org/explore?indicator=E10c&x=-13558713.97862&y=4694525.17969&z=7.79683&poi=US05-E10c)).
+The map below shows observations from GCOM-C SGLI on 24 May 2020.
 
-## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Rice planting-2020-05-24"},"source":{"type":"XYZ","urls":["https://8ib71h0627.execute-api.us-east-1.amazonaws.com/v1/{z}/{x}/{y}@1x?url=s3%3A%2F%2Fcovid-eo-data%2Fagriculture%2Fgcom-c-2020_05_24.tif&resampling_method=bilinear&bidx=1&rescale=-1%2C1&color_map=cfastie"]}},{"type":"Tile","properties":{"id":"OSM Background"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="7.796826239373065" center=[-121.79999999999998,38.810231346133094] }-->
-
-
+## GCOM-C Observations <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Rice planting-2020-05-24"},"source":{"type":"XYZ","urls":["https://8ib71h0627.execute-api.us-east-1.amazonaws.com/v1/{z}/{x}/{y}@1x?url=s3%3A%2F%2Fcovid-eo-data%2Fagriculture%2Fgcom-c-2020_05_24.tif&resampling_method=bilinear&bidx=1&rescale=-1%2C1&color_map=cfastie"]}},{"type":"Tile","properties":{"id":"OSM Background"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="7.796826239373065" center=[-121.79999999999998,38.810231346133094] }-->
 
 ## Observation and Analysis Results
-
 
 Global food supply in the best conditions is becoming a major challenge.
 COVID-19 has strained the food supply and demand balance by disrupting food supply chain systems, such as labor, logistics, trade/domestic policies, and market anxiety.
@@ -76,9 +81,9 @@ Normalized Difference Vegetation Index (NDVI) is highly related with vegetation 
 
 Also, the peaks of NDVI means that the amount of paddy rice leaves was at its maximum (heading period). The earlier peak of NDVI in 2020 indicates that heading period was earlier than previous years. Similarly, the decrease of NDVI in 2020 means that leaves turn yellow or red and leaf mass decreases due to harvesting. The earlier decrease of NDVI indicates that the harvest period of paddy rice was also earlier than previous years. The [Foreign Food Supply and Demand Report (October 2020, in Japanese)](https://www.maff.go.jp/j/zyukyu/jki/j_rep/monthly/attach/pdf/r2index-28.pdf) published by the Ministry of Agriculture, Forestry and Fisheries of Japan also states "According to the U.S. Department of Agriculture, California's harvest progress was 90 percent, which is higher than the same period in 2019 (77%). “, which is consistent with the tendency by satellite observations.
 
-## Using Machine Learning 
+## Machine Learning 
 
-In addition, Rice planting area around Sacramento was estimated by machine learning technology, which is utilized for AI etc., using complex utilization of images from ALOS-2　(Rader) and Sentinel-2　(Optical) (Figure 5).  Rice harvest in 2020 was expected to increase, because planted area had expanded in 2020 compared to 2019. The planted area in 2019 was 496,000 acres ([official statistics by USDA](https://www.nass.usda.gov/Quick_ Stats/Ag_Overview/stateOverview.php?state=CALIFORNIA)). Furthermore, the planted area in 2020 estimated from ALOS-2 is 515,000 acres. This estimated area will be the second largest on record since 2014.
+In addition, Rice planting area around Sacramento was estimated by machine learning technology, which is utilized for AI etc., using complex utilization of images from ALOS-2 (Radar) and Sentinel-2　(Optical) (Figure 5).  Rice harvest in 2020 was expected to increase, because planted area had expanded in 2020 compared to 2019. The planted area in 2019 was 496,000 acres ([official statistics by USDA](https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=CALIFORNIA)). Furthermore, the planted area in 2020 estimated from ALOS-2 is 515,000 acres. This estimated area will be the second largest on record since 2014.
 
 The timing of rice planting, growing and harvesting in 2020 was the earliest among last six years observed by Sentinel-2 and last eight years observed by Landsat-8, respectively. Horizontal axis shows “Day of Year” (“1” means January 1st and “365” means December 31st).  
 
@@ -91,7 +96,7 @@ The timing of rice planting, growing and harvesting in 2020 was the earliest amo
 
 ## Multi-mission approach
 
-#### New results until June in 2021 captured by GCOM-C, Sentinel-2, Landsat-8 and ALOS-2
+**Results updated to June in 2021 based on GCOM-C, Sentinel-2, Landsat-8 and ALOS-2**
 
 Same as for 2020, satellite imagery observed by ALOS-2 PALSAR-2 and GCOM-C operated by JAXA, Sentinel-2 by ESA, and Landsat-8 by NASA/USGS were also used to monitor rice planting conditions around Sacramento, California, USA in 2021. Especially, the year 2021 is expected to be one of the hottest years on record and precipitation and snowfall are far below average. According to the [“U.S. Drought Monitor”](https://droughtmonitor.unl.edu/CurrentMap/StateDroughtMonitor.aspx?West) published by the National Oceanic and Atmospheric Administration and other organizations, the drought intensity is D3 (Extreme Drought) or D4 (Exceptional Drought) on large areas of California, and these are the most serious of the five stages (as of July 2021). Due to the drought, more than 1,500 dams and reservoirs in California had less than 50% water volume compared to the average year.
 

@@ -1,7 +1,15 @@
+---
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-co2/hero.jpg
+date: 2025-01-01
+theme: covid-19
+tags: co2
+official: true
+---
+
 # Covid-19 Impacts on Greenhouse Gases <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-co2/hero.jpg" }-->
 ### Effect of lockdown on Carbon Dioxide <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
-## Covid-19 Impacts on Greenhouse Gases
+## Impacts on Greenhouse Gases
 
 Lockdowns and other social distancing measures implemented in response to the COVID-19 pandemic have led to temporary reductions in carbon dioxide (CO2)
 emissions from fossil fuel combustion and other human activities.
@@ -23,12 +31,12 @@ However, initial studies suggest that although COVID-19-related CO2 emission red
 
 </center>
 
-CO2 emission reductions have been accompanied by comparable, or even greater, reductions in emissions of short-lived air pollutants, such as [nitrogen dioxide (NO2)](https://eodashboard.org/?indicator=N1_NO2_trilateral). While fossil fuel combustion emits far more CO2 than NO2, much smaller relative changes are expected for atmospheric CO2 because it has a much longer atmospheric lifetime and there is much more CO2 in the atmosphere than NO2. Therefore, time-dependent, regional-scale changes in CO2 concentrations are expected to be no larger than 1 part per million (ppm), out of the normal 415 ppm CO2 background – a change of only 0.25%.
+CO2 emission reductions have been accompanied by comparable, or even greater, reductions in emissions of short-lived air pollutants, such as [nitrogen dioxide (NO2)](https://eodashboard.org/explore?indicator=N1_NO2_trilateral). While fossil fuel combustion emits far more CO2 than NO2, much smaller relative changes are expected for atmospheric CO2 because it has a much longer atmospheric lifetime and there is much more CO2 in the atmosphere than NO2. Therefore, time-dependent, regional-scale changes in CO2 concentrations are expected to be no larger than 1 part per million (ppm), out of the normal 415 ppm CO2 background – a change of only 0.25%.
 
 To track atmospheric CO2 changes resulting from the lockdowns, observations collected by the NASA [Orbiting Carbon Observatory-2 (OCO-2)](https://oco.jpl.nasa.gov/) satellite and Japan’s [Greenhouse gases Observing SATellite (GOSAT)](https://www.eorc.jaxa.jp/GOSAT/index.html) during the first few months of 2020 were compared to results collected in previous years. The OCO-2 results were used to search for changes on regional scales over the globe. Targeted observations from GOSAT were used to track changes in large urban areas, such as Beijing, Tokyo, Mumbai, and New York. Both types of observations yielded key insights into the CO2 changes accompanying the economic disruptions caused by the COVID-19 pandemic.
 
 
-## Regional Scale Changes in CO2 across the Globe
+## Regional Scale Changes in CO2
 
 To determine whether short-term reductions in CO2 emissions from coronavirus shutdowns are even detectable on a regional scale, scientists must create new methods of data analysis with enough sensitivity and precision to distinguish between normal seasonal changes in background CO2 levels and small perturbations caused by coronavirus shutdowns.
 
@@ -44,7 +52,7 @@ The maps below show these comparisons for the peak periods of the lockdowns in C
 </center>
 
 
-## CO2 Changes over Large Urban Areas
+## CO2 Changes in Large Urban Areas
 
 Scientists use GOSAT data to determine changes in atmospheric CO2 over large urban areas, which experienced the largest changes in economic activity associated with the onset of the COVID-19 pandemic. While OCO-2 is optimized for detecting the subtle, regional-scale changes in CO2, GOSAT has advantages for tracking changes in CO2 emissions over large cities.
 

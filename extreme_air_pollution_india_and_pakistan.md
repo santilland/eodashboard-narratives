@@ -1,3 +1,11 @@
+---
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/AirPollutionIndia/cover-pakistan.jpg
+date: 2025-01-01
+theme: extreme-events
+tags: air
+official: true
+---
+
 # Extreme air pollution episodes in Northern India and Pakistan <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/AirPollutionIndia/cover-pakistan.jpg" }-->
 ### Authors: Selviga Sinnathamby, Natacha Kaminski, Elie Zoghbi - Sorbonne Universite, Paris, France <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
@@ -113,7 +121,7 @@ We can also observe that the number of days with extreme CO pollution was nearly
 
 ###  <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"CO_3_daily-2023-11-08"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"AWS_VIS_CO_3DAILY_DATA","styles":"","format":"image/png","time":"2023-11-08"}}},{"type":"Tile","properties":{"id":"OSM Background"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.879889469918195" center=[74.28590944565705,31.547289411942756] animationOptions={duration:500}}-->
 #### Evolution of daily CO concentrations in Lahore, 2023 
-* **Map**: Daily timeseries of CO concentration in Lahore in 2023  [[view full time series](https://www.eodashboard.org/explore?indicator=N1_CO&x=0&y=-1224599.44035&z=2.35425)]
+* **Map**: Daily timeseries of CO concentration in Lahore in 2023  [[view full time series](https://eodashboard.org/explore?indicator=N1_CO&x=0&y=-1224599.44035&z=2.35425)]
 * **Chart**: Daily timeseries of CO concentration in Lahore in 2023 
 
 <center>
@@ -128,7 +136,7 @@ A second peak in CO concentrations was detected in Lahore on November 7th. This 
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"CO_3_daily-2023-11-08"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"AWS_VIS_CO_3DAILY_DATA","styles":"","format":"image/png","time":"2023-11-08"}}},{"type":"Tile","properties":{"id":"OSM Background"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="8.947606701979296" center=[77.13217840767383,28.560811023321136] animationOptions={duration:500}}-->
 #### Evolution of daily CO concentrations in New Delhi, 2023
-* **Map**: Daily timeseries of CO concentration in New Delhi in 2023  [[view full time series](https://www.eodashboard.org/explore?indicator=N1_CO&x=0&y=-1224599.44035&z=2.35425)]
+* **Map**: Daily timeseries of CO concentration in New Delhi in 2023  [[view full time series](https://eodashboard.org/explore?indicator=N1_CO&x=0&y=-1224599.44035&z=2.35425)]
 * **Chart**: Daily timeseries of CO concentration in New Delhi in 2023
 
 The CO peak observed in New Delhi on November 4th is explained by the sudden CO emissions from fires set to burn crop residues, but also by the winds. Indeed, once the CO accumulated around October 30th due to weak winds in IGP, high levels of CO were then transported along the Himalayas as winds generally blew southeastward from the area where the fires were detected by VIIRS, around November 3rd. As the closest city to the fires in this direction, New Delhi is the first city in India (among the cities of interest) to experience the extreme CO pollution in 2023. 
@@ -140,7 +148,7 @@ The CO peak observed in New Delhi on November 4th is explained by the sudden CO 
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"CO_3_daily-2023-11-10"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"AWS_VIS_CO_3DAILY_DATA","styles":"","format":"image/png","time":"2023-11-10"}}},{"type":"Tile","properties":{"id":"OSM Background"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.410109959839149" center=[80.84415782159175,26.927303711507136] animationOptions={duration:500}}-->
 #### Evolution of daily CO concentrations in Lucknow, 2023
-* **Map**: Daily timeseries of CO concentration in Lucknow in 2023  [[view full time series](https://www.eodashboard.org/explore?indicator=N1_CO&x=0&y=-1224599.44035&z=2.35425)]
+* **Map**: Daily timeseries of CO concentration in Lucknow in 2023  [[view full time series](https://eodashboard.org/explore?indicator=N1_CO&x=0&y=-1224599.44035&z=2.35425)]
 * **Chart**: : Daily timeseries of CO concentration in Lucknow in 2023 
 
 Even though Lucknow is the farthest city from the region where agricultural waste is burned, it also experienced high levels of CO at the beginning of November 2023. This is mainly explained by the wind direction and speed. From the end of October to the beginning of November, wind speed was low, which favored the buildup of CO in the region. When the winds blew again towards the southeast, the accumulated CO was transported to the east of the IGP, which explains the high CO concentrations detected in Lucknow around November 10th.
@@ -182,8 +190,7 @@ The analysis was carried out on the [ESA DeepESDL (Deep Earth System Data Lab)](
 * [DeepESDL website](https://earthsystemdatalab.net)  
 * [Network of Resources website](https://nor-discover.org/en/portfolio/)
 * [Apply for sponsorsed access to DeepESDL](https://portfolio.nor-discover.org/?textSearch=DeepESDL)
-* [ERA5 Dataset](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land?tab=form 
-)
+* [ERA5 Dataset](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land?tab=form )
 * [Sentinel-5p TROPOMI CO Dataset](https://radiantearth.github.io/stac-browser/#/external/eurodatacube.github.io/eodash-catalog/trilateral/CO_3_daily/CO_3_daily/collection.json)
 * [VIIRS Active Fire Dataset](https://firms.modaps.eosdis.nasa.gov/download/)
 * [Jupyter Notebook](https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-February-2024/AirPollutionIndia/3_OpenChallengeNotebook%5BRMSH%5D-%5BChallenge1%5DSinnathamby_Kaminski_Zoghbi.ipynb#:~:text=AirPollutionIndia-,3_OpenChallengeNotebook,-%5BRMSH%5D%2D%5BChallenge1%5DSinnathamby_Kaminski_Zoghbi)

@@ -1,3 +1,11 @@
+---
+cover-image: https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/05/crop_yield/14537834-1-eng-GB/Crop_yield_pillars.jpg
+date: 2025-01-01
+theme: extreme-events
+tags: ocean,sea-surface-temperature
+official: true
+---
+
 # El Niño 2023-2024 (Part 2): Rising Global Sea Surface Temperatures <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/el_nino_SST/cover-ai-1.png" }-->
 ### Read more about record-breaking sea surface temperatures <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
