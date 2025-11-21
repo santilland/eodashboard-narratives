@@ -3,7 +3,7 @@ cover-image: https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/s
 date: 2025-01-01
 theme: extreme-events
 tags: aerosol
-official: true
+official: false
 ---
 
 # Tracking aerosol plumes from Hunga eruption of 2022 <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/hunga-tonga/cover-hunga.jpg" }-->

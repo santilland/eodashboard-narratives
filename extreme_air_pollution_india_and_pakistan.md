@@ -3,7 +3,7 @@ cover-image: https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/s
 date: 2025-01-01
 theme: extreme-events
 tags: air
-official: true
+official: false
 ---
 
 # Extreme air pollution episodes in Northern India and Pakistan <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/AirPollutionIndia/cover-pakistan.jpg" }-->
