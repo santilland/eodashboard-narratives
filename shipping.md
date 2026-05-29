@@ -4,10 +4,26 @@ date: 2025-01-01
 theme: covid-19
 tags: shipping
 official: true
+collections: E13c_shipping_activity, CV_Covid_19_cases
 ---
 
 #  Travel restrictions interrupted Global Supply chains dependent on cargo shipping<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/12-ship-traffic.jpg" }-->
 ### Covid-19 Impacts on global shipping, observed from satellites<!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/esa.jpg" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/nasa.jpeg" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/jaxa.jpeg" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
 
 ## Satellite observations of supply chains
 
@@ -36,13 +52,13 @@ To reduce the number of false alarms and mis-detections, a cloud-masking operati
 
 ## Port of Genoa<!--{ as="eox-map" mode="tour" }-->
 
-### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"IT3;:;2019-03-23T10:38:25;:;E13c_shipping_activity;:;EPSG:3857","title":"E13c_shipping_activity"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2019-03-23T10:38:25/2019-03-23T22:38:24"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="14.55627077678812" center=[8.906844181890747,44.40546025815988] projection="" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"IT3;:;2019-03-23T10:38:25;:;E13c_shipping_activity;:;EPSG:3857","title":"E13c_shipping_activity"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2019-03-23T10:38:25/2019-03-23T22:38:24"}}}]}]' zoom="14.55627077678812" center=[8.906844181890747,44.40546025815988] projection="" animationOptions={duration:500}}-->
 #### Copernicus Sentinel-2 
 #### Port of Genoa, Italy
 
 observation date: **23 March 2019**
 
-### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"IT3;:;2020-03-22T10:28:28;:;E13c_shipping_activity;:;EPSG:3857","title":"E13c_shipping_activity"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2020-03-22T10:28:28/2020-03-22T22:28:27"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="14.55627077678812" center=[8.906844181890747,44.40546025815988] projection="" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"IT3;:;2020-03-22T10:28:28;:;E13c_shipping_activity;:;EPSG:3857","title":"E13c_shipping_activity"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2020-03-22T10:28:28/2020-03-22T22:28:27"}}}]}]' zoom="14.55627077678812" center=[8.906844181890747,44.40546025815988] projection="" animationOptions={duration:500}}-->
 #### Copernicus Sentinel-2 
 #### Port of Genoa, Italy
 
@@ -50,7 +66,7 @@ observation date: **22 March 2020**
 The reduced activity in the port is observed compared to the same date in the previous and successive years. 
 
 
-### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"IT3;:;2021-03-22T10:28:31;:;E13c_shipping_activity;:;EPSG:3857","title":"E13c_shipping_activity"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2021-03-22T10:28:31/2021-03-22T22:28:30"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="14.55627077678812" center=[8.906844181890747,44.40546025815988] projection="" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"IT3;:;2021-03-22T10:28:31;:;E13c_shipping_activity;:;EPSG:3857","title":"E13c_shipping_activity"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2021-03-22T10:28:31/2021-03-22T22:28:30"}}}]}]' zoom="14.55627077678812" center=[8.906844181890747,44.40546025815988] projection="" animationOptions={duration:500}}-->
 #### Copernicus Sentinel-2 
 #### Port of Genoa, Italy
 

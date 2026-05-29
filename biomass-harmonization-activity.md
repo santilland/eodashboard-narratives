@@ -4,10 +4,26 @@ date: 2025-01-01
 theme: biomass
 tags: forest,carbon
 official: true
+collections: nceo_africa_2017, RECCAP2_6_deforested_biomass, RECCAP2_7_degraded_biomass, RECCAP2_8_edge_biomass_change, RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop, RECCAP2_9_intact_biomass_change_methods_mean, RECCAP2_5_SF_biomass_growth, FNF_Palsar, E10e_ndvi, ESDC_kndvi, ESDC_net_ecosystem_exchange
 ---
 
 #   A view from space monitors land cover and tree to track aboveground biomass and carbon content <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Biomass.jpeg" }-->
 ### Read more about taking stock of global biomass maps <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/esa.jpg" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/nasa.jpeg" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/jaxa.jpeg" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
 
 #   The Biomass Harmonization Activity
 
@@ -78,7 +94,7 @@ On the **Dashboard** section of this dashboard you can discover several other da
 - [NASA MODIS / Terra+Aqua BRDF / Albedo Nadir BRD-Adjusted Reflectance Daily L3 Global 0.05 Deg CMG and Vegetation Indices Gross Primary Productivity](https://eodashboard.org/explore?indicator=ESDC_kndvi)
 - [Net Ecosystem Exchange](https://eodashboard.org/explore?indicator=ESDC_net_ecosystem_exchange)
 
-## Aboveground Woody Biomass <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"nceo_africa_2017"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=gist_earth_r&rescale=0.0,400.0&url=s3://nasa-maap-data-store/file-staging/nasa-map/nceo-africa-2017/AGB_map_2017v0m_COG.tif"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="3.8721626413535932" center=[16.795351709540633,-2.177743246907042] }-->
+## Aboveground Woody Biomass <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"nceo_africa_2017"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=gist_earth_r&rescale=0.0,400.0&url=s3://nasa-maap-data-store/file-staging/nasa-map/nceo-africa-2017/AGB_map_2017v0m_COG.tif"]}},{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="3.8721626413535932" center=[16.795351709540633,-2.177743246907042] }-->
 
 
 

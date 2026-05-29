@@ -4,10 +4,26 @@ date: 2025-01-01
 theme: covid-19
 tags: travel,airplane,lockdown
 official: true
+collections: car_containers,E13b_parked_airplanes
 ---
 
 #  During COVID-19 related lockdowns, air travel decreased<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/trilateral/Esa_Nasa_jaxa_covid19_cover_V3.jpg" }-->
 ### How EO and AI can illustrate COVID-19 impacts on air travel<!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/esa.jpg" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/nasa.jpeg" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/jaxa.jpeg" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
 
 ## Grounded airplanes during COVID-19 pandemic
 
@@ -39,13 +55,13 @@ In addition to the SAR imagery, NASA and ESA scientists also used artificial int
 Combining high-resolution optical remote sensing data from Planet and Sentinel-2 with SAR imagery from ALOS-2 and [Sentinel-1](https://sentinel.esa.int/web/sentinel/missions/sentinel-1) is a powerful method to provide reliable time series data on the number of aircrafts grounded at airports over time. While imagery from optical satellites like Planet or [Sentinel-2](https://sentinel.esa.int/web/sentinel/missions/sentinel-2) is powerful to monitor changes in grounded aircrafts around the world systematically, their sensors cannot penetrate clouds, limiting the detection capability on cloudy or rainy days. Alternatively, SAR data, while lower resolution, can penetrate clouds. Therefore, scientists are combining these datasets to get the most comprehensive images of changes at aircraft counts at airports during the COVID-19 pandemic.
 
 ## Paris Airport (CDG) <!--{ as="eox-map" mode="tour" }-->
-### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"FR8;:;2019-04-21T11:11:06;:;E13b_parked_airplanes;:;EPSG:3857","title":"E13b_parked_airplanes"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2019-04-21T11:11:06/2019-04-21T23:11:05"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="14.292591536229368" center=[2.57512311456145,49.00363044105609] projection="" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"FR8;:;2019-04-21T11:11:06;:;E13b_parked_airplanes;:;EPSG:3857","title":"E13b_parked_airplanes"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2019-04-21T11:11:06/2019-04-21T23:11:05"}}}]}]' zoom="14.292591536229368" center=[2.57512311456145,49.00363044105609] projection="" animationOptions={duration:500}}-->
 #### Copernicus Sentinel-2 observations 
 #### Paris Airport Charles de Gaule
 
 observation date: **21 April 2019**
 
-### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"FR8;:;2020-04-25T10:57:23;:;E13b_parked_airplanes;:;EPSG:3857","title":"E13b_parked_airplanes"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2020-04-25T10:57:23/2020-04-25T22:57:22"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="14.292591536229368" center=[2.57512311456145,49.00363044105609] projection="" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"FR8;:;2020-04-25T10:57:23;:;E13b_parked_airplanes;:;EPSG:3857","title":"E13b_parked_airplanes"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2020-04-25T10:57:23/2020-04-25T22:57:22"}}}]}]' zoom="14.292591536229368" center=[2.57512311456145,49.00363044105609] projection="" animationOptions={duration:500}}-->
 #### Copernicus Sentinel-2
 #### Paris Airport Charles de Gaule
 

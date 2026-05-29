@@ -4,10 +4,26 @@ date: 2025-01-01
 theme: covid-19
 tags: cars
 official: true
+collections: E9_car_containers
 ---
 
 # Covid-19 Impact on the Automotive Industry <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-cars-containers/hero.jpg" }-->
 ### The effect of lockdown on the automotive industry, observed from space <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/esa.jpg" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/nasa.jpeg" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/jaxa.jpeg" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
 
 ## Automotive Sector
 
@@ -68,7 +84,7 @@ Earth-observing satellites have tracked activity at global ports importing and e
 <center>
 	<figure>
   <img src="https://wpassets.porttechnology.org/wp-content/uploads/2019/11/25162519/singapore-msc.jpg" alt="Description of the image">
-  <figcaption>Containers at terminal in Singapore. Image source: https://www.porttechnology.org</figcaption>
+  <figcaption>Containers at terminal in Singapore. Image source: https://www.porttechnology.org </figcaption>
 </figure>
 </center>
 

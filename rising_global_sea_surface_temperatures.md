@@ -4,10 +4,26 @@ date: 2025-01-01
 theme: extreme-events
 tags: ocean,sea-surface-temperature
 official: true
+collections: OHC300_ocean_heat_content, ENSST_by_GCOM-W-AMSR_JAXA
 ---
 
 # El Niño 2023-2024 (Part 2): Rising Global Sea Surface Temperatures <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/el_nino_SST/cover-ai-1.png" }-->
 ### Read more about record-breaking sea surface temperatures <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/esa.jpg" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/nasa.jpeg" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/jaxa.jpeg" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
 
 ## El Niño 2023-2024 (Part 2): Rising Global Sea Surface Temperatures
 
@@ -44,7 +60,7 @@ The situation was especially alarming in the waters around Ireland and the Unite
 </figure>
 
 ## European Marine Heatwave<!--{ as="eox-map" mode="tour" nav="false" }-->
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Ocean_Heat_Content_upper_300m-2023-06-01T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"OCEAN_HEAT_CONTENT_UPPER_300M","styles":"","format":"image/png","time":"2023-06-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="3.98859305729493" center=[4.160473151186208,49.75160424907489] animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Ocean_Heat_Content_upper_300m-2023-06-01T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"OCEAN_HEAT_CONTENT_UPPER_300M","styles":"","format":"image/png","time":"2023-06-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="3.98859305729493" center=[4.160473151186208,49.75160424907489] animationOptions={duration:500}}-->
 #### Ocean's Heat Content
 Marine heat waves are closely related with ocean heat content (OHC), which refers to the total amount of heat stored in the ocean, typically measured across various depths. OHC play a critical role on the development, persistence and intensity of Marine heatwaves: as ocean heat content increases due to global warming, the probability and intensity of marine heatwaves rise, as warmer subsurface water propagates to the surface, sustaining or intensifying marine heatwaves due to vertical mixing and upwelling processes [7]. This map illustrates the **Ocean Heat Content (OHC300)** for June 2023. This variable, provided by ECMWF, measures the amount of heat stored in the upper 300 meters of the ocean, providing important insights into global warming. This data, from the ORAS5 system, combines models and global observations to offer a detailed view of ocean temperatures from 1958 to today. 
 
@@ -61,7 +77,7 @@ Since 2023, sea surface temperatures in the North-West Pacific, especially off t
 
 
 ## The Kuroshio extension  <!--{ as="eox-map" mode="tour" }-->
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"ENSST_by_GCOM-W-AMSR_JAXA-2024-08-10T12:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"SST_BY_GCOM-W-AMSR_JAXA","styles":"","format":"image/png","time":"2024-08-10T12:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="5.9946848894596" center=[138.60771491711697,43.23525543984803] animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"ENSST_by_GCOM-W-AMSR_JAXA-2024-08-10T12:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"SST_BY_GCOM-W-AMSR_JAXA","styles":"","format":"image/png","time":"2024-08-10T12:00:00Z"}}},{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="5.9946848894596" center=[138.60771491711697,43.23525543984803] animationOptions={duration:500}}-->
 #### Unusual Shift of the Kuroshio Extension
  Now, let's focus on the waters around Japan. In July 2023, sea surface temperatures (SST) were generally higher than normal, especially in the Pacific Ocean off the coasts of Tohoku and Hokkaido, where temperatures were more than 5°C above average. The map illustrates the Sea Surface Temperature from JAXA's GCOM-W around Japan on August 10, 2024. [**View more dates**](https://eodashboard.org/explore?indicator=ENSST&x=15431081.54924&y=4747312.96961&z=7.14583).
  
@@ -78,7 +94,7 @@ Since 2023, sea surface temperatures in the North-West Pacific, especially off t
 
 
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"ENSST_by_GCOM-W-AMSR_JAXA-2024-08-10T12:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"SST_BY_GCOM-W-AMSR_JAXA","styles":"","format":"image/png","time":"2024-08-10T12:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="7.145832484950282" center=[138.61976406179892,39.17878171376287] animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"ENSST_by_GCOM-W-AMSR_JAXA-2024-08-10T12:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"SST_BY_GCOM-W-AMSR_JAXA","styles":"","format":"image/png","time":"2024-08-10T12:00:00Z"}}},{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="7.145832484950282" center=[138.61976406179892,39.17878171376287] animationOptions={duration:500}}-->
 #### Monthly Sea Surface Temperature Anomalies
 A closer look at monthly SST anomalies in the seas around Japan (20-50°N, 120-160°E) shows long-term temperature trends, excluding seasonal variations. SST anomalies in this region usually range between -1°C and +1°C, but August 2022 and July 2023 were notably warm.
 Besides global warming, SSTs around Japan are affected by complex shifts in the ocean current system, which strongly influences the country’s weather, climate, and fisheries. To help monitor and forecast these changes, JAXA, in collaboration with the Japan Agency for Marine-Earth Science and Technology, operates the “Ocean Weather Forecast” for the area around Japan. This system provides forecasts for water temperatures and currents up to two weeks in advance, using SST data from the AMSR series to improve accuracy.

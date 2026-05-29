@@ -4,10 +4,26 @@ date: 2025-01-01
 theme: cryosphere
 tags: glacier,ice,climate
 official: true
+collections: ADD_L2_Thwaites, ADD_L2_Pine_Island, ADD_West_Antarctica_S1, ADD_Meltmap, ADD_Melt_Onset, ADD_Melt_Season_End, ADD_Melt_Duration, 4D_Greenland_Melt_Duration, 4D_Greenland_Melt_Onset, 4D_Greenland_Melt_Season_End, 4D_Greenland_Meltmap
 ---
 
 #  Collaboration on Glaciers and Ice Sheets Research <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Iceberg_in_Antarctica.jpg" }-->
 ### Researchers and scientists across the globe are paying daily attention to ice formations in Antarctica and Greenland <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/esa.jpg" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/nasa.jpeg" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/jaxa.jpeg" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
 
 ## Research Collaboration on Glaciers and other ice formations
 

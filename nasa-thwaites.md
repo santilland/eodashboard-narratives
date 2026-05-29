@@ -4,10 +4,26 @@ date: 2025-01-01
 theme: cryosphere
 tags: climate,ice,polar,warming
 official: true
+collections: ADD_L2_Thwaites, ADD_L2_Pine_Island
 ---
 
 #    Pine Island Glacier and Thwaites Glacier<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/NASA-thwaites-cover.jpeg" }-->
 ### Two of the main pathways for ice from the West Antarctic Ice Sheet entering the Amundsen Sea <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/esa.jpg" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/nasa.jpeg" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/jaxa.jpeg" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
 
 ## West Antarctic Glaciers
 
@@ -26,13 +42,13 @@ The following image pair demonstrates the changes that have occurred since the s
 *NASA Earth Observatory animation by Lauren Dauphin, using MODIS data from NASA EOSDIS/LANCE and GIBS/Worldview. Pine Island view*
 
 ## Thwaites Glacier <!--{ as="eox-map" mode="tour" }-->
-### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ADD_L2_Thwaites;:;LE07_L2SR_005113_20010116_20200917_02_T2_SR;:;ADD_L2_Thwaites;:;EPSG:3857","title":"ADD_L2_Thwaites"},"source":{"type":"XYZ","url":"https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-antarctic-glaciers-thwaites/items/LE07_L2SR_005113_20010116_20200917_02_T2_SR/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="8.374688532487836" center=[-106.33077271107223,-74.49847904692125] projection="EPSG:3857" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ADD_L2_Thwaites;:;LE07_L2SR_005113_20010116_20200917_02_T2_SR;:;ADD_L2_Thwaites;:;EPSG:3857","title":"ADD_L2_Thwaites"},"source":{"type":"XYZ","url":"https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-antarctic-glaciers-thwaites/items/LE07_L2SR_005113_20010116_20200917_02_T2_SR/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55","projection":"EPSG:3857"}}]}]' zoom="8.374688532487836" center=[-106.33077271107223,-74.49847904692125] projection="EPSG:3857" animationOptions={duration:500}}-->
 #### Thwaites Glacier
 #### Landsat imagery
 
 observation date: **16 January 2001**
 
-### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ADD_L2_Thwaites;:;LC08_L2SR_005113_20221220_20221227_02_T2_SR;:;ADD_L2_Thwaites;:;EPSG:3857","title":"ADD_L2_Thwaites"},"source":{"type":"XYZ","url":"https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-antarctic-glaciers-thwaites/items/LC08_L2SR_005113_20221220_20221227_02_T2_SR/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="8.374688532487836" center=[-106.33077271107223,-74.49847904692125] projection="EPSG:3857" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ADD_L2_Thwaites;:;LC08_L2SR_005113_20221220_20221227_02_T2_SR;:;ADD_L2_Thwaites;:;EPSG:3857","title":"ADD_L2_Thwaites"},"source":{"type":"XYZ","url":"https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-antarctic-glaciers-thwaites/items/LC08_L2SR_005113_20221220_20221227_02_T2_SR/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55","projection":"EPSG:3857"}}]}]' zoom="8.374688532487836" center=[-106.33077271107223,-74.49847904692125] projection="EPSG:3857" animationOptions={duration:500}}-->
 #### Thwaites Glacier
 #### Landsat imagery
 
@@ -61,7 +77,7 @@ Currently, estimates of the glacier’s grounding line retreat vary widely becau
 
 ## Pine Island <!--{ as="eox-map" mode="tour" }-->
 
-### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ADD_L2_Pine_Island;:;LE07_L2SR_001113_20010104_20200917_02_T2_SR;:;ADD_L2_Pine_Island;:;EPSG:3857","title":"ADD_L2_Pine_Island"},"source":{"type":"XYZ","url":"https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-antarctic-glaciers-pine-island/items/LE07_L2SR_001113_20010104_20200917_02_T2_SR/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="8.480071787307264" center=[-101.65385227443112,-74.25736671348794] projection="EPSG:3857" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ADD_L2_Pine_Island;:;LE07_L2SR_001113_20010104_20200917_02_T2_SR;:;ADD_L2_Pine_Island;:;EPSG:3857","title":"ADD_L2_Pine_Island"},"source":{"type":"XYZ","url":"https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-antarctic-glaciers-pine-island/items/LE07_L2SR_001113_20010104_20200917_02_T2_SR/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55","projection":"EPSG:3857"}}]}]' zoom="8.480071787307264" center=[-101.65385227443112,-74.25736671348794] projection="EPSG:3857" animationOptions={duration:500}}-->
 #### Pine Island Glacier
 #### Landsat data
 
@@ -69,7 +85,7 @@ observation date: **4 January 2001**
 
 20 years of cloud-free level-2 surface reflectance Landsat data (2001-2023) have been acquired over the Pine Island Glacier.
 
-### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ADD_L2_Pine_Island;:;LC08_L2SR_001113_20230125_20230208_02_T2_SR;:;ADD_L2_Pine_Island;:;EPSG:3857","title":"ADD_L2_Pine_Island"},"source":{"type":"XYZ","url":"https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-antarctic-glaciers-pine-island/items/LC08_L2SR_001113_20230125_20230208_02_T2_SR/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="8.480071787307264" center=[-101.65385227443112,-74.25736671348794] projection="EPSG:3857" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ADD_L2_Pine_Island;:;LC08_L2SR_001113_20230125_20230208_02_T2_SR;:;ADD_L2_Pine_Island;:;EPSG:3857","title":"ADD_L2_Pine_Island"},"source":{"type":"XYZ","url":"https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-antarctic-glaciers-pine-island/items/LC08_L2SR_001113_20230125_20230208_02_T2_SR/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55","projection":"EPSG:3857"}}]}]' zoom="8.480071787307264" center=[-101.65385227443112,-74.25736671348794] projection="EPSG:3857" animationOptions={duration:500}}-->
 #### Pine Island Glacier
 #### Landsat data
 

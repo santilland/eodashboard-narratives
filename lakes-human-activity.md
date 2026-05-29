@@ -4,10 +4,26 @@ date: 2025-01-01
 theme: oceans
 tags: lakes
 official: true
+collections: Lakes_WQ_TURB_water_turbidity, NLK_lakes
 ---
 
 # Changing lakes due to human activity <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Biwa.jpeg" }-->
 ### Read more about how human activities impact inland waters around the world <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/esa.jpg" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/nasa.jpeg" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/jaxa.jpeg" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
 
 ## Changing lakes due to human activity
 
@@ -20,7 +36,7 @@ The **[turbidity of a lake](https://land.copernicus.eu/global/products/lwq)** de
 The following map shows the turbidity of Lake Trasimeno (Italy) using the [lake Water quality NRT (near-real-time) product at 300, from the Copernicus Land Service](https://land.copernicus.eu/global/products/lwq).
 
 ## Lake Turbidity <!--{ as="eox-map" mode="tour" }-->
-### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Lakes_WQ_TURB_water_turbidity;:;108257;:;Lakes_WQ_TURB_water_turbidity;:;EPSG:3857","title":"Lakes_WQ_TURB_water_turbidity"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["LAKE_WATER_QUALITY_TURBIDITY_MEAN"],"TILED":true,"TIME":"2020-12-21T00:00:00Z/2020-12-21T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2023;:;EPSG:3857","title":"EOxCloudless 2023"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":true},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":false},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":false}]}]' zoom="11.678551379099545" center=[12.016752443512864,43.12957134696151] projection="" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":false},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":false},{"type":"Tile","properties":{"id":"cloudless-2023;:;EPSG:3857","title":"EOxCloudless 2023"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":true}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Lakes_WQ_TURB_water_turbidity;:;108257;:;Lakes_WQ_TURB_water_turbidity;:;EPSG:3857","title":"Lakes_WQ_TURB_water_turbidity"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["LAKE_WATER_QUALITY_TURBIDITY_MEAN"],"TILED":true,"TIME":"2020-12-21T00:00:00Z/2020-12-21T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]}]' zoom="11.678551379099545" center=[12.016752443512864,43.12957134696151] projection="" animationOptions={duration:500}}-->
 #### Lake Trasimeno (Italy) 
 
 Lake Water quality NRT (near-real-time) product at 300, from the [Copernicus Land Service](https://land.copernicus.eu/global/products/lwq).
@@ -38,7 +54,7 @@ The Aral Sea, once one of the world’s largest inland bodies of water \[1\] loc
 
 <center>
 	<figure>
-		<img src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_aralsea_2307112_v2.png?raw=true" width=300>
+		<img src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Eodashboard_aralsea_2307112_v2.png" width=300>
 		</figure>
 	</center>
 
@@ -53,7 +69,7 @@ One of the main consequences of its shrinkage led to a rise in concentration of 
 Today the decline of the basin serves as a cautionary tale, highlighting the need for sustainable water management practices and international cooperation \[7\]. The long-term sustainability and stability of the Aral Sea’s ecosystem remains uncertain. The sea has experienced significant ecological shifts and irreversible damage over the years, and it may have crossed tipping points in some aspects. Efforts have been to mitigate the damage caused by the Aral sea crisis, including the construction of dams to restore water levels and improve its ecological health \[8\].
 
 
-## Aral Lake <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"NLK_lake_aral;:;LC09_L2SP_160029_20230620_02_T1;:;NLK_lake_aral;:;EPSG:3857","title":"NLK_lake_aral"},"source":{"type":"XYZ","url":"https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-lakes-aral-sea/items/LC09_L2SP_160029_20230620_02_T1/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="8.083527368528372" center=[60.466028274095265,44.60461968782673] projection="" }-->
+## Aral Lake <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"NLK_lake_aral;:;LC09_L2SP_160029_20230620_02_T1;:;NLK_lake_aral;:;EPSG:3857","title":"NLK_lake_aral"},"source":{"type":"XYZ","url":"https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-lakes-aral-sea/items/LC09_L2SP_160029_20230620_02_T1/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55","projection":"EPSG:3857"}}]}]' zoom="8.083527368528372" center=[60.466028274095265,44.60461968782673] projection="" }-->
 
 
 ## References

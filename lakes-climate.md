@@ -4,10 +4,25 @@ date: 2025-01-01
 theme: oceans
 tags: lake,water, climate
 official: true
+collections: Lakes_S2L2A, Lakes_ALOS2, Lakes_SWT_surface_water_temperature
 ---
 
 #  Changes in temperature, precipitation patterns and extremes impacting surface water hydrology <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Alakol_Lake.jpg" }-->
 ### Read more about monitoring these impacts with Earth Observations <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/esa.jpg" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/nasa.jpeg" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/jaxa.jpeg" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
 
 ## Temperature
 
@@ -17,7 +32,7 @@ One example of this is the Colorado River, located in the southwest United State
 
 <figure style="text-align:center;">
   <img
-    src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_coloradoriver_230707.png?raw=true"
+    src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Eodashboard_coloradoriver_230707.png"
   width=300
     style="max-width:100%; height:auto; display:block; margin:0 auto;"
   >
@@ -30,7 +45,7 @@ The worst known megadrought in the Colorado River occurred around 1800 years ago
 After more than two decades of drought, researchers have documented the lowest water levels ever seen at both Powel and Mead reservoirs [3]. Seeing as the river’s resources had been overexploited, combined with the dry conditions, meant that the water was not replenishing as fast as people were using it [11]. In 2022, the Colorado River and Lake Powell were believed to be at a tipping point [9] leading to the discussions on the need for big reductions in water allocation along the river basin. On May 22 2023, three American states announced a historic deal to have a significant cut in the water usage over the next four years to prevent a crisis in the largest reservoir of the country [4]. 
 
 ## Colorado River <!--{ as="eox-map" mode="tour" }-->
-### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Colorado;:;2017-06-27T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2017-06-27T00:00:00Z/2017-06-27T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="11.041891035502706" center=[-110.74216064881361,37.46457077196689] projection="" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Colorado;:;2017-06-27T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2017-06-27T00:00:00Z/2017-06-27T23:59:59Z"}}}]}]' zoom="11.041891035502706" center=[-110.74216064881361,37.46457077196689] projection="" animationOptions={duration:500}}-->
 #### Colorado River 
 
 #### observed by ESA's Copernicus Sentinel-2 optical satellite
@@ -38,7 +53,7 @@ After more than two decades of drought, researchers have documented the lowest w
 observtion date: **27 June 2017**
 
 [Access this dataset](https://eodashboard.org/explore?&poi=Colorado&indicator=Lakes_S2L2A). 
-### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Colorado;:;2023-05-22T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-05-22T00:00:00Z/2023-05-22T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="11.041891035502706" center=[-110.74216064881361,37.46457077196689] projection="" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Colorado;:;2023-05-22T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-05-22T00:00:00Z/2023-05-22T23:59:59Z"}}}]}]' zoom="11.041891035502706" center=[-110.74216064881361,37.46457077196689] projection="" animationOptions={duration:500}}-->
 #### Colorado River 
 
 #### observed by ESA's Copernicus Sentinel-2 optical satellite
@@ -52,7 +67,7 @@ Changing rainfall patterns due to climate change can affect water levels and the
 
 <figure style="text-align:center;">
   <img
-    src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_TonleSapLake_230712.png?raw=true"
+    src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Eodashboard_TonleSapLake_230712.png"
   width=300
     style="max-width:100%; height:auto; display:block; margin:0 auto;"
   >
@@ -75,7 +90,7 @@ In addition, recent studies have shown that water level changes in the Mekong Ri
 
 The interactive map shows the Tonlé Sap observed by JAXA's ALOS-2 radar satellite. [Access this dataset](https://eodashboard.org/explore?indicator=Lakes_ALOS2&poi=TonleSap_HV)
 
-## Tonlé Sap Lake <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Lakes_ALOS2"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA_LAKES_ALOS2_HH","styles":"","format":"image/png"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.099700430342956" center=[104.13122286094041,12.78557562008588] }-->
+## Tonlé Sap Lake <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Lakes_ALOS2"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA_LAKES_ALOS2_HH","styles":"","format":"image/png"}}},{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.099700430342956" center=[104.13122286094041,12.78557562008588] }-->
 
 
 ## Climate extremes revive a disappearing lake
@@ -84,21 +99,21 @@ At the base of the southern Sierra in the San Joaquin Valley lies the lakebed of
 
 <figure style="text-align:center;">
   <img
-    src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_TulareLake_2307112.png?raw=true"
+    src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Eodashboard_TulareLake_2307112.png"
   width=300
     style="max-width:100%; height:auto; display:block; margin:0 auto;"
   >
 </figure>
 
 ## Lake Tulare <!--{ as="eox-map" mode="tour" }-->
-### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Tulare;:;2023-01-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-01-01T00:00:00Z/2023-01-01T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="10.91459625355369" center=[-119.8898548709609,35.999287519590226] projection="" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Tulare;:;2023-01-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-01-01T00:00:00Z/2023-01-01T23:59:59Z"}}}]}]' zoom="10.91459625355369" center=[-119.8898548709609,35.999287519590226] projection="" animationOptions={duration:500}}-->
 #### Tulare Lake in January 2023
 
 The map shows the Tulare Lake observed by ESA's Copernicus Sentinel-2 optical satellite. 
 
 [Access this dataset](https://eodashboard.org/explore?indicator=Lakes_S2L2A&poi=Tulare)
 
-### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Tulare;:;2023-05-26T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-05-26T00:00:00Z/2023-05-26T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="10.91459625355369" center=[-119.8898548709609,35.999287519590226] projection="" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Tulare;:;2023-05-26T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-05-26T00:00:00Z/2023-05-26T23:59:59Z"}}}]}]' zoom="10.91459625355369" center=[-119.8898548709609,35.999287519590226] projection="" animationOptions={duration:500}}-->
 #### Tulare Lake in May 2023
 
 Two major storms in March 2023 caused flooding that revived Tulare Lake although the former lakebed is now covered with farms [1]. This flooding was expected to continue into 2024, impacting residents, farmers and valuable cropland. The town of Corcoran, located on the lake's edge, faces a flooding risk, prompting efforts to raise the height by introducing an artificial levee. Melting snow from the southern Sierra contributes significantly to the water supply in the Tulare Lake basin. 
@@ -115,7 +130,7 @@ Climate change and the consequent warming of lakes is leading to earlier and mor
 
 <figure style="text-align:center;">
   <img
-    src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_lakebalaton_2307112.png?raw=true"
+    src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Eodashboard_lakebalaton_2307112.png"
   width=300
     style="max-width:100%; height:auto; display:block; margin:0 auto;"
   >
@@ -130,7 +145,7 @@ The map below shows a comparison of the lake surface temperature of Lake Balaton
 
  
 ## Lake Balaton <!--{ as="eox-map" mode="tour" }-->
-### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;f537cc9e-efe0-41bc-8613-6a361ca629b6;:;Lakes_SWT_surface_water_temperature;:;EPSG:3857","title":"Lakes_SWT_surface_water_temperature"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["LAKES_SURFACE_WATER_TEMPERATURE"],"TILED":true,"TIME":"2010-01-04T00:00:00Z/2010-01-04T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="10.763937067796148" center=[17.497951653164634,46.883137615767595] projection="" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;f537cc9e-efe0-41bc-8613-6a361ca629b6;:;Lakes_SWT_surface_water_temperature;:;EPSG:3857","title":"Lakes_SWT_surface_water_temperature"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["LAKES_SURFACE_WATER_TEMPERATURE"],"TILED":true,"TIME":"2010-01-04T00:00:00Z/2010-01-04T23:59:59Z"}}}]}]' zoom="10.763937067796148" center=[17.497951653164634,46.883137615767595] projection="" animationOptions={duration:500}}-->
 #### Lake Balaton 
 #### ESA CCI Surface water temperature
 
@@ -141,7 +156,7 @@ observation: **January 2010**
 
 <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_SWT_surface_water_temperature/SWT_legend.png" width=300>
 
-### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;fa6f28b4-f936-4f47-a847-776144895cee;:;Lakes_SWT_surface_water_temperature;:;EPSG:3857","title":"Lakes_SWT_surface_water_temperature"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["LAKES_SURFACE_WATER_TEMPERATURE"],"TILED":true,"TIME":"2020-01-06T00:00:00Z/2020-01-06T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="10.763937067796148" center=[17.497951653164634,46.883137615767595] projection="" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;fa6f28b4-f936-4f47-a847-776144895cee;:;Lakes_SWT_surface_water_temperature;:;EPSG:3857","title":"Lakes_SWT_surface_water_temperature"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["LAKES_SURFACE_WATER_TEMPERATURE"],"TILED":true,"TIME":"2020-01-06T00:00:00Z/2020-01-06T23:59:59Z"}}}]}]' zoom="10.763937067796148" center=[17.497951653164634,46.883137615767595] projection="" animationOptions={duration:500}}-->
 #### Lake Balaton 
 #### ESA CCI Surface water temperature
 

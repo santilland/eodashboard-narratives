@@ -4,10 +4,26 @@ date: 2025-01-01
 theme: agriculture
 tags: crop,food,supply
 official: true
+collections: N6_geoglam
 ---
 
 # Satellites are providing insights into agricultural production, crop conditions, and food supply <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Agriculture.jpeg" }-->
 ### Satellite data applications for environmental impacts on world cereal supply and demand (2022) <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/esa.jpg" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/nasa.jpeg" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/jaxa.jpeg" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
 
 ## Earth Observations for World Crop Impacts
  
@@ -19,7 +35,7 @@ As demonstrated by recent global crises including the COVID-19 pandemic and the 
 
 The following map illustrates the global crop conditions for January 2022. More dates are available on the **[Dashboard](https://eodashboard.org/explore?indicator=N6&x=0&y=-500937.70857&z=3.64386)**.
 
-## GEOGLAM <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Vector","properties":{"id":"Administrative zones ADM0"},"source":{"type":"Vector"}},{"type":"Tile","properties":{"id":"N6_geoglam-2025-01-01T00:00:00Z"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap=%7B%221%22%3A%20%5B120%2C%20120%2C%20120%2C%20255%5D%2C%222%22%3A%20%5B130%2C%2065%2C%200%2C%20255%5D%2C%223%22%3A%20%5B66%2C%20207%2C%2056%2C%20255%5D%2C%224%22%3A%20%5B245%2C%20239%2C%200%2C%20255%5D%2C%225%22%3A%20%5B241%2C%2089%2C%2032%2C%20255%5D%2C%226%22%3A%20%5B168%2C%200%2C%200%2C%20255%5D%2C%227%22%3A%20%5B0%2C%20143%2C%20201%2C%20255%5D%7D&url=s3://veda-data-store/geoglam/CropMonitor_202201.tif"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="3.1699250014423126" center=[16.790831657981713,22.201786861954943] }-->
+## GEOGLAM <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N6_geoglam-2025-01-01T00:00:00Z"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap=%7B%221%22%3A%20%5B120%2C%20120%2C%20120%2C%20255%5D%2C%222%22%3A%20%5B130%2C%2065%2C%200%2C%20255%5D%2C%223%22%3A%20%5B66%2C%20207%2C%2056%2C%20255%5D%2C%224%22%3A%20%5B245%2C%20239%2C%200%2C%20255%5D%2C%225%22%3A%20%5B241%2C%2089%2C%2032%2C%20255%5D%2C%226%22%3A%20%5B168%2C%200%2C%200%2C%20255%5D%2C%227%22%3A%20%5B0%2C%20143%2C%20201%2C%20255%5D%7D&url=s3://veda-data-store/geoglam/CropMonitor_202201.tif"]}},{"type":"Vector","properties":{"id":"Administrative zones ADM0"},"source":{"type":"Vector"}},{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="3.1699250014423126" center=[16.790831657981713,22.201786861954943] }-->
 
 ## Agriculture Monitoring
 
@@ -64,7 +80,7 @@ The Southern Plains are a major wheat producing region in the U.S. and is monito
 
 JAXA with Japanese MAFF provide agrometeorological information including Precipitation, Drought Index, Soil Moisture, Solar Radiation, Surface Temperature, Vegetation Index and anomaly, etc. Rainfall, Agriculture, Land, GPM Core Observatory, SHIZUKU (GCOM-W), MODIS, Multiple Satellites (GSMaP) bi-Monthly on JASMIN for Asia and on JASMAI for selected world areas. By using JAXA WMS with JASMIN/JASMAI products, the anomaly of Southern Plain in the US can be zoomed in with visualized map. The following are examples of composite averaged NDVI and NDVI anomaly.
 
-![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Averaged%20NDVI.png?raw=true)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Averaged%20NDVI.png)
 
 The following time series indicators reflect the precipitation, soil moisture and NDVI variables from Japan JASMIN/JASMAI for Kansas, USA.
 
@@ -103,7 +119,7 @@ Here we present a few examples of satellite based products for agricultural moni
 
 Not only do satellite data helps us understand the current season’s productivity, but they also provide a rich historical record of agricultural measurements that enable researchers to compare outcomes to previous seasons and evaluate broader trends such as the impacts of climate change. For example, significant parts of Northern Africa and the Middle East are experiencing drought conditions including countries such as Morocco, Tunisia (seen below), Syria and Iraq that are signifincatly impacting crop production. Earth observations are key to identifying and quatifying these impacts early and in providing support for future agricultural planning and mitigation actions when needed. 
 
-![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Sousse.png?raw=true)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Sousse.png)
 
 *Sousse (Northern Centre, Tunisia) Winter Wheat 2022*
 
@@ -136,8 +152,19 @@ The following time series indicators reflect the precipitation, soil moisture an
 
 ![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Brazil_winter.png)
 
-### Explore Datasets
 
+## <!--{ as="div" }--> Open Science
+ 
+## Open Science 
 As data access and technology have made significant advances in recent decades, it comes as no surprise that the amount of available data can often be overwhelming and difficult to decipher. As such, tools such as the JAXA JASMAI, ESA World Cereal system and the GEOGLAM-Harvest AGMET Indicators play a key role for quick and digestible information processing and supporting key agricultural decisions. In order to increase food market stability and reduce price volatility, it is critical that market analysts, farmers, and other agricultural stakeholders have a thorough understanding of the amount of food coming to market - whether that be in line with the average amount seen in previous years or more/less. Just as with any other consumer good, supply and demand are the key drivers of agrifood markets and commodity prices. Satellite data can fill a critical gap in agricultural monitoring, enabling us to not only understand current crop conditions but prepare for potential outcomes in a given growing season, with wider-reaching impacts on market stability, supporting early action and humanitarian response, and bolstering food security.
+ 
+| Name | Type | Agency / Provider | Description | Access |
+|---|---|---|---|---|
+| [GEOGLAM Crop Monitor for AMIS](https://cropmonitor.org/) | Platform | GEOGLAM / NASA Harvest / ESA / JAXA | International consensus crop condition assessments for wheat, maize, rice, soybean in major producing countries; updated monthly | [cropmonitor.org](https://cropmonitor.org/) |
+| [GEOGLAM Crop Monitor on EO Dashboard](https://eodashboard.org/explore?indicator=N6) | Dataset | ESA / NASA / JAXA | Global crop condition raster maps served via VEDA cloud; monthly | [eodashboard.org](https://eodashboard.org/explore?indicator=N6&x=0&y=-626172.13571&z=3.32193) |
+| [ESA WorldCereal Global Maps](https://esa-worldcereal.org/en/products/global-maps) | Dataset | ESA / WorldCereal consortium | Seasonally updated global cropland, crop type (maize & wheat), and irrigation maps at 10 m resolution; based on Copernicus Sentinel time series | [esa-worldcereal.org](https://esa-worldcereal.org/en/products/global-maps) |
+| [GCOM-W / SHIZUKU](https://global.jaxa.jp/projects/sat/gcom_w/) | Mission / Dataset | JAXA | Passive microwave soil moisture and precipitation; global | [JAXA Global](https://global.jaxa.jp/) |
+| [NASA SMAP](https://smap.jpl.nasa.gov/) | Mission / Dataset | NASA / JPL | Soil Moisture Active Passive; L-band global soil moisture; daily | [smap.jpl.nasa.gov](https://smap.jpl.nasa.gov/) |
+| [GSMaP - Global Satellite Mapping of Precipitation on EO Dashboard](https://sharaku.eorc.jaxa.jp/GSMaP/) | Dataset | JAXA / EORC | Multi-satellite precipitation analysis; global; used in JASMIN/JASMAI | [JAXA EORC](https://sharaku.eorc.jaxa.jp/GSMaP/) |
+| [EO Dashboard](https://eodashboard.org/) | Platform | ESA / NASA / JAXA | Trilateral open Earth observation dashboard combining satellite data from all three agencies | [eodashboard.org](https://eodashboard.org/) |
 
-- [GEOGLAM Crop Monitor Data on EO Dashboard](https://eodashboard.org/explore?indicator=N6&x=0&y=-626172.13571&z=3.32193)

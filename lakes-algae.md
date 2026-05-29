@@ -4,17 +4,33 @@ date: 2025-01-01
 theme: oceans
 tags: algae,lakes,water
 official: true
+collections: Lakes_SWT_surface_water_temperature, NLK_lakes
 ---
 
 #   Algal blooms in lake waters <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Cambodian_rivers.jpg" }-->
 ### Read more about observing the increases in algal blooms with ESA, NASA and JAXA satellites <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/esa.jpg" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/nasa.jpeg" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/jaxa.jpeg" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
 
 ## Lake Vänern
 
 <center>
 	<figure>
 		<img src="
-							https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_lakevanern_2307112.png?raw=true" width="50%">
+							https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Eodashboard_lakevanern_2307112.png" width="50%">
 		</figure>
 	</center>
 	
@@ -44,7 +60,7 @@ The water quality of Lake Biwa, the largest freshwater lake in Japan, northeast 
 <center>
 	<figure>
 		<img src="
-							https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_lakebiwa_2307112.png?raw=true" width="50%">
+							https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Eodashboard_lakebiwa_2307112.png" width="50%">
 		</figure>
 	</center>
 
@@ -53,14 +69,14 @@ One of the reasons for this is the direct impact of the increase in alien specie
 
 <center>
 	<figure>
-		<img src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Inland_lakes_water_temp_Biwa.jpg?raw=true">
+		<img src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Inland_lakes_water_temp_Biwa.jpg">
 		<figcaption>Average water temperature change in Lake Biwa, CC SEndo Kouta: http://endoh7735.sakura.ne.jp/biwako/warming.htm</figcaption>
 		</figure>
 	</center>
 
 
 ## Lake Biwa <!--{ as="eox-map" mode="tour" }-->
-### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Biwa;:;45a274a2-11d1-4c3e-b980-60cb4a1b0cbe;:;Lakes_SWT_surface_water_temperature;:;EPSG:3857","title":"Lakes_SWT_surface_water_temperature"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["LAKES_SURFACE_WATER_TEMPERATURE"],"TILED":true,"TIME":"2020-07-21T00:00:00Z/2020-07-21T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="10.601368737967661" center=[136.0675308381605,35.247157016883804] projection="" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Biwa;:;45a274a2-11d1-4c3e-b980-60cb4a1b0cbe;:;Lakes_SWT_surface_water_temperature;:;EPSG:3857","title":"Lakes_SWT_surface_water_temperature"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["LAKES_SURFACE_WATER_TEMPERATURE"],"TILED":true,"TIME":"2020-07-21T00:00:00Z/2020-07-21T23:59:59Z"}}}]}]' zoom="10.601368737967661" center=[136.0675308381605,35.247157016883804] projection="" animationOptions={duration:500}}-->
 #### Lake Biwa Temperature
 
 observation: **21 July 2020
@@ -70,7 +86,7 @@ Even in the middle of summer when the surface water temperature is around 30°C,
 
 <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_SWT_surface_water_temperature/SWT_legend.png" width=300>
 
-### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Biwa;:;c786d680-5cea-4598-aca4-ad275dfb0507;:;Lakes_SWT_surface_water_temperature;:;EPSG:3857","title":"Lakes_SWT_surface_water_temperature"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["LAKES_SURFACE_WATER_TEMPERATURE"],"TILED":true,"TIME":"2019-03-18T00:00:00Z/2019-03-18T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="10.601368737967661" center=[136.0675308381605,35.247157016883804] projection="" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Biwa;:;c786d680-5cea-4598-aca4-ad275dfb0507;:;Lakes_SWT_surface_water_temperature;:;EPSG:3857","title":"Lakes_SWT_surface_water_temperature"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["LAKES_SURFACE_WATER_TEMPERATURE"],"TILED":true,"TIME":"2019-03-18T00:00:00Z/2019-03-18T23:59:59Z"}}}]}]' zoom="10.601368737967661" center=[136.0675308381605,35.247157016883804] projection="" animationOptions={duration:500}}-->
 #### Lake Biwa Temperature
 
 observation: **18 March 2019**
@@ -90,12 +106,12 @@ A study using the Second Global Imager (SGLI) on board the Global Change Observa
 
 <figure style="text-align:center;">
   <img
-    src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Inland_lakes_chl_concentration_biwa.png?raw=true"
+    src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Inland_lakes_chl_concentration_biwa.png"
     alt="Lake Biwa chlorophyll-a concentration maps, May and November 2018-2021"
     style="max-width:100%; height:auto; display:block; margin:0 auto;"
   >
   <img
-    src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Inland_lakes_chl_concentration_biwa_legend.png?raw=true"
+    src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Inland_lakes_chl_concentration_biwa_legend.png"
     alt="Legend for Lake Biwa chlorophyll-a maps"
     style="max-width:100%; height:auto; display:block; margin:0.5em auto 0;"
   >
@@ -108,7 +124,7 @@ Looking at the distribution of Chl-a concentrations in Lake Biwa throughout 2019
 
 <figure style="text-align:center;">
   <img
-    src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Inland_lakes_monthly_chl_concentration_2019.png?raw=true"
+    src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Inland_lakes_monthly_chl_concentration_2019.png"
     alt="Monthly chlorophyll-a concentration in 2019"
     style="max-width:100%; height:auto; display:block; margin:0 auto;"
   >
@@ -121,7 +137,7 @@ Phenomena thought to be caused by climate change have already occurred in Lake B
 
 The following Map shows Lake Biwa as imaged by NASA's Landsat7-9 satellites. [Access this dataset](https://eodashboard.org/explore?indicator=NLK&poi=NLK_lake_biwa).
 
-## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"NLK_lake_biwa-2023-03-19T01:28:30Z"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-lakes-lake-biwa/items/LC08_L2SP_109036_20230319_02_T1/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55&no_data=0"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="7.7147113573639645" center=[136.65322679499997,34.42995106686193] }-->
+## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"NLK_lake_biwa-2023-03-19T01:28:30Z"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-lakes-lake-biwa/items/LC08_L2SP_109036_20230319_02_T1/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55&no_data=0"]}},{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="7.7147113573639645" center=[136.65322679499997,34.42995106686193] }-->
 
 ## References 
 

@@ -4,25 +4,36 @@ date: 2025-01-01
 theme: extreme-events
 tags: aerosol
 official: false
+collections: N1_SO2, N1_NO2, S5P-L3GRD-AAI-DAY
 ---
 
-# Tracking aerosol plumes from Hunga eruption of 2022 <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/hunga-tonga/cover-hunga.jpg" }-->
-### Authors: Clair Duchamp, Aude Barton & Aiten Alava Baldazo - Sorbonne Universite, Paris, France <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+# Tracking aerosol plumes from Hunga eruption of 2022  <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/hunga-tonga/cover-hunga.jpg" }-->
+### Authors: Clair Duchamp<sup>1</sup>, Aude Barton<sup>1</sup> & Aiten Alava Baldazo<sup>1</sup>
+1 - Sorbonne Université, Académie Spatiale and Institut de Physique du Globe de Paris (IPGP), Paris, France
+
+# 
+*This story is based on results from the [3<sup>rd</sup> Earth System Science Challenge](https://sciencehub.esa.int/2024/05/09/3rd-earth-system-science-challenge/) organised and hosted by ESA's ESRIN Science Hub in February 2024. The scope of the challenge was to use temporal interpolation of satellite data to efficiently track the plume from the unprecedented eruption of the Hunga volcano in January 2022. The method presented here was developed by a team of PhD students from Sorbonne Université, the Académie Spatiale and the Institut de Physique du Globe de Paris (IPGP), on the [DeepESDL platform](https://earthsystemdatalab.net). The data and code are made openly available.*
+
+
+## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/logos/Logo_of_Sorbonne_University.svg.png" alt="" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/logos/Academie-Spatiale_logo_ligne-1.png" alt="" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/logos/ipgp_logo.png" alt="" height="80" style="margin: 0 15px;"/>
+</p>
+
 
 ## Tracking aerosol plumes from Hunga eruption of 2022
 
-*This story is based on results from the [3<sup>rd</sup> Earth System Science Challenge]( https://sciencehub.esa.int/2024/05/09/3rd-earth-system-science-challenge/) organised and hosted by ESA's ESRIN Science Hub in February 2024*
-
-The research presented in this story was developed in the frame of the Earth System Science Challenge organised by the European Space Agency and hosted at ESRIN’s Science Hub in February 2024. The scope of the challenge was to use temporal interpolation of satellite data in order to track efficiently the plume of the unprecedented eruption of the Hunga volcano in January 2022. The method presented here was developed by a team of PhD students from Sorbonne Université on the [DeepESDL platform](https://earthsystemdatalab.net). The data and code are made openly available.  
 
 ## Tonga <!--{ as="eox-map" mode="tour" }-->
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="7.987879004885659" center=[-175.12433157881628,-20.760022398643116] animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="7.987879004885659" center=[-175.12433157881628,-20.760022398643116] animationOptions={duration:500}}-->
 #### Volcanoes and Climate
 
 Extreme events such as megafires or stratospheric volcanic eruptions can have a profound radiative impact on a planetary scale by significantly affecting the global temperatures.  A famous example of this process is the eruption of Pinatubo in 1991 which caused a drop of approximately 0.6°C in the average global temperature in the next 15 months following the eruption (Parker et al., 1996). 
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="13.448484947136274" center=[-175.4210211289757,-20.549140867177655] animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="13.448484947136274" center=[-175.4210211289757,-20.549140867177655] animationOptions={duration:500}}-->
 #### The Hunga eruption of 2022
 This story focuses on the recent catastrophic eruption of Hunga volcano in January 2022 characterized by an exceptional injection of water vapour into the stratosphere. Previous research observed that the presence of sulfate aerosols formed in the wake of major eruptions tends to cool the climate, but the Hunga eruption offers the opportunity to study, for the first time in the satellite era, the radiative effect of a stratospheric consequent disturbance in water vapour. Radiative studies are underway to determine the long-term radiative impact of Hunga, following the study by Sellitto et al. (2022) which found a net warming of the climate system at the top of atmosphere for 15 days after the eruption due to the water vapor in the plume.  
 
@@ -45,7 +56,7 @@ Animation produced by the Japan Meteorological Agency (https://www.jma.go.jp/jma
 
 ## Satellite Observations <!--{ as="eox-map" mode="tour" }-->
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"so2_daily-2022-01-16"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"AWS_VIS_SO2_DAILY_DATA","styles":"","format":"image/png","time":"2022-01-16"}}},{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="5.063636644024472" center=[178.99585302318826,-22.61607384489777] animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"so2_daily-2022-01-16"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"AWS_VIS_SO2_DAILY_DATA","styles":"","format":"image/png","time":"2022-01-16"}}},{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="5.063636644024472" center=[178.99585302318826,-22.61607384489777] animationOptions={duration:500}}-->
 #### SO2 Plume
 Observations from several satellites such as ESA’s TROPOspheric Monitoring Instrument, TROPOMI onboard the Copernicus Sentinel-5p showed enhanced levels of stratospheric sulfur dioxide (SO2). The map illustrates the SO2 concentration observed by Sentinel-5p TROPOMI. Note that in this map the SO2 from potential anthropogenic sources has not been filtered out. The Copernicus Sentinel-5P SO2 measurements are those retrieved assuming SO2 at an altitude of 7 km and explicitly selecting pixels where a volcanic source is most likely (sulfurdioxide_detection_flag > 0) and where the solar zenith angle is within limits (SZA < 70°).
 

@@ -4,10 +4,26 @@ date: 2025-01-01
 theme: cryosphere
 tags: arctic,ice,polar
 official: true
+collections: N12_sea_ice_concentration, SIC_sea_ice_thickness_cryosat, SIE_sea_ice_thickness_envisat, SITI_IS2SITMOGR4-cog
 ---
 
 #   The sea ice extent has been rapidly decreasing in recent years as global temperatures have risen <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/SeaIce.jpeg" }-->
 ### Monitoring Sea Ice Extent and Concentration from Passive Microwave <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/esa.jpg" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/nasa.jpeg" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/jaxa.jpeg" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
 
 ## Sea Ice Extent and Concentration from Passive Microwave
 
@@ -20,11 +36,11 @@ Its data are averaged into a handy Level-3 map on a 0.1° grid, showing—at a g
 On EO Dashboard users can explore over 12 years of GCOM-W products of sea ice concentration, as illustrated in the images below. The entire time series can be explored [here](https://eodashboard.org/explore/?x=-156.1298&y=83.6059&z=4.8156&datetime=2024-07-31&template=expert&indicator=N12_1_sea_ice_concentration_arctic). 
 
 ## GCOM-W Observations  <!--{ as="eox-map" mode="tour" }-->
-### <!--{ projection="EPSG:3411" layers='[{"type":"Tile","properties":{"id":"N12_1_sea_ice_concentration_arctic-2023-04-07T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:SIC_N","styles":"","format":"image/png","time":"2012-04-07T11:59:30.000Z"}}},{"type":"Tile","properties":{"id":"sx-cat_ortho680500;:;EPSG:3411","title":"Terrain Light Stereographic North"},"source":{"type":"TileWMS","url":"//sxcat-demo.eox.at/sxcat_maps/wms","projection":"ORTHO:680500","tileGrid":{"tileSize":[512,512]},"attributions":"{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }","params":{"LAYERS":"sx-cat_ortho680500","TILED":true}}}]' zoom="2.4556138087264377" center=[0,0]}-->
+### <!--{ projection="EPSG:3411" layers='[{"type":"Tile","properties":{"id":"sx-cat_ortho680500;:;EPSG:3411","title":"Terrain Light Stereographic North"},"source":{"type":"TileWMS","url":"//sxcat-demo.eox.at/sxcat_maps/wms","projection":"ORTHO:680500","tileGrid":{"tileSize":[512,512]},"attributions":"{ Terrain light: Data &copy; <a href=\"https://www.openstreetmap.org/copyright" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }","params":{"LAYERS":"sx-cat_ortho680500","TILED":true}}},{"type":"Tile","properties":{"id":"N12_1_sea_ice_concentration_arctic-2023-04-07T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:SIC_N","styles":"","format":"image/png","time":"2012-04-07T11:59:30.000Z"}}}]' zoom="2.4556138087264377" center=[0,0]}-->
 
 #### 2012-04-07
 
-### <!--{ projection="EPSG:3411" layers='[{"type":"Tile","properties":{"id":"N12_1_sea_ice_concentration_arctic-2024-07-31T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:SIC_N","styles":"","format":"image/png","time":"2024-07-31T11:59:30.000Z"}}},{"type":"Tile","properties":{"id":"sx-cat_ortho680500;:;EPSG:3411","title":"Terrain Light Stereographic North"},"source":{"type":"TileWMS","url":"//sxcat-demo.eox.at/sxcat_maps/wms","projection":"ORTHO:680500","tileGrid":{"tileSize":[512,512]},"attributions":"{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }","params":{"LAYERS":"sx-cat_ortho680500","TILED":true}}}]' zoom="2.4556138087264377" center=[0,0]}-->
+### <!--{ projection="EPSG:3411" layers='[{"type":"Tile","properties":{"id":"sx-cat_ortho680500;:;EPSG:3411","title":"Terrain Light Stereographic North"},"source":{"type":"TileWMS","url":"//sxcat-demo.eox.at/sxcat_maps/wms","projection":"ORTHO:680500","tileGrid":{"tileSize":[512,512]},"attributions":"{ Terrain light: Data &copy; <a href=\"https://www.openstreetmap.org/copyright" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }","params":{"LAYERS":"sx-cat_ortho680500","TILED":true}}},{"type":"Tile","properties":{"id":"N12_1_sea_ice_concentration_arctic-2024-07-31T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:SIC_N","styles":"","format":"image/png","time":"2024-07-31T11:59:30.000Z"}}}]' zoom="2.4556138087264377" center=[0,0]}-->
 
 #### 2024-07-31
 

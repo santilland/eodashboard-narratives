@@ -4,10 +4,26 @@ date: 2025-01-01
 theme: atmosphere
 tags: climate,pollution
 official: true
+collections: N9_OMI_trno2-COG, N1_NO2_monthly, N10_OMSO2PCA-COG
 ---
 
 #     Air pollution in India, China and the U.S. have changed significantly over the past two decades<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/7-greenhouse-gases-from-combustion.jpg" }-->
 ### How NASA scientists are measuring nitrogen dioxide (NO2) and sulfur dioxide (SO2) from space <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/esa.jpg" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/nasa.jpeg" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/jaxa.jpeg" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
 
 ## Air Pollution Globally
 
@@ -92,15 +108,15 @@ These observations represent almost two decades of daily air pollution data that
 	
 ## Map Tour Example <!--{ as="eox-map" mode="tour" }-->
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N9_OMI_trno2-COG-2022-01-01T00:00:00Z"},"opacity":0,"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=reds&rescale=0,37e14&url=s3://veda-data-store/OMI_trno2-COG/OMI_trno2_0.10x0.10_2022_Col3_V4.tif"]}},{"type":"Tile","properties":{"id":"OSM Background"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="6.90795031205442" center=[-81.51716087269001,39.78949635236157] animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"OSM Background"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N9_OMI_trno2-COG-2022-01-01T00:00:00Z"},"opacity":0,"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=reds&rescale=0,37e14&url=s3://veda-data-store/OMI_trno2-COG/OMI_trno2_0.10x0.10_2022_Col3_V4.tif"]}},{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="6.90795031205442" center=[-81.51716087269001,39.78949635236157] animationOptions={duration:500}}-->
 #### Ohio River basin
  The Ohio River flows through or borders six states: Illinois, Indiana, Kentucky, Ohio, Pennsylvania, and West Virginia.
 	
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N9_OMI_trno2-COG-2009-01-01T00:00:00Z"},"opacity":0.7,"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=reds&rescale=0,37e14&url=s3://veda-data-store/OMI_trno2-COG/OMI_trno2_0.10x0.10_2009_Col3_V4.tif"]}},{"type":"Tile","properties":{"id":"OSM Background"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="6.90795031205442" center=[-81.51716087269001,39.78949635236157] animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"OSM Background"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N9_OMI_trno2-COG-2009-01-01T00:00:00Z"},"opacity":0.7,"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=reds&rescale=0,37e14&url=s3://veda-data-store/OMI_trno2-COG/OMI_trno2_0.10x0.10_2009_Col3_V4.tif"]}},{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="6.90795031205442" center=[-81.51716087269001,39.78949635236157] animationOptions={duration:500}}-->
 #### Air Quality in the Ohio River Valley in 2009
 Nitrogen Dioxide yearly concentration in the Ohio River Valley in 2009
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N9_OMI_trno2-COG-2022-01-01T00:00:00Z"},"opacity":0.7,"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=reds&rescale=0,37e14&url=s3://veda-data-store/OMI_trno2-COG/OMI_trno2_0.10x0.10_2022_Col3_V4.tif"]}},{"type":"Tile","properties":{"id":"OSM Background"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="6.90795031205442" center=[-81.51716087269001,39.78949635236157] animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"OSM Background"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N9_OMI_trno2-COG-2022-01-01T00:00:00Z"},"opacity":0.7,"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=reds&rescale=0,37e14&url=s3://veda-data-store/OMI_trno2-COG/OMI_trno2_0.10x0.10_2022_Col3_V4.tif"]}},{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="6.90795031205442" center=[-81.51716087269001,39.78949635236157] animationOptions={duration:500}}-->
 #### Air Quality in the Ohio River Valley in 2022
 NASA satellite data has shown significant improvements in air quality over the Ohio River Valley, particularly a decrease in nitrogen dioxide (NO2) levels. This map illustrates the Nitrogen Dioxide for the year 2022. Further dates are available on the  **[Dashboard](https://eodashboard.org/explore?indicator=N9&x=-9074448.83926&y=4835399.44958&z=6.90795)**.
 	
