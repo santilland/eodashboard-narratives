@@ -198,7 +198,7 @@ The analysis was carried out on the [ESA DeepESDL (Deep Earth System Data Lab)](
 * [Network of Resources website](https://nor-discover.org/en/portfolio/)
 * [Apply for sponsorsed access to DeepESDL](https://portfolio.nor-discover.org/?textSearch=DeepESDL)
 * [ERA5 Dataset](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land?tab=form )
-* [Sentinel-5p TROPOMI CO Dataset](https://radiantearth.github.io/stac-browser/#/external/eurodatacube.github.io/eodash-catalog/trilateral/CO_3_daily/CO_3_daily/collection.json)
+* [Sentinel-5p TROPOMI CO Dataset](https://browser.moregeo.it/external/ESA-eodashboards.github.io/eodashboard-catalog/trilateral/CO_3_daily/CO_3_daily/collection.json)
 * [VIIRS Active Fire Dataset](https://firms.modaps.eosdis.nasa.gov/download/)
 * [Jupyter Notebook](https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-February-2024/AirPollutionIndia/3_OpenChallengeNotebook%5BRMSH%5D-%5BChallenge1%5DSinnathamby_Kaminski_Zoghbi.ipynb#:~:text=AirPollutionIndia-,3_OpenChallengeNotebook,-%5BRMSH%5D%2D%5BChallenge1%5DSinnathamby_Kaminski_Zoghbi)
 

@@ -44,8 +44,7 @@ The objective of this study was to design and implement a reproducible framework
 Five different types of forests were used as case studies to test and compare interpolation methods. Each site represents different forest types, climatic conditions, and seasonal patterns, providing a comprehensive assessment of method performance under real-world variability.
 
 <div style="text-align: center;">
-    <img src="
-https://raw.githubusercontent.com/eurodatacube/eodash-assets/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/Globe3_Amazonand.png" width="500"/>
+    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/Globe3_Amazonand.png" width="500"/>
     <p><b>Figure 3.</b> Use cases/forests locations.</p>
 </div>
 
